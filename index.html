@@ -9,16 +9,6 @@
     html { scroll-behavior: smooth; }
     body { overflow-x: hidden; }
 
-    /* Intro */
-    #intro {
-      position: fixed; inset: 0; background-color: #fce7f3;
-      display: flex; align-items: center; justify-content: center; flex-direction: column;
-      z-index: 100; transition: opacity 1.5s ease; font-family: 'Poppins', sans-serif;
-    }
-    #intro h1 { font-size: 1.8rem; color: #db2777; text-align: center; animation: fadeText 2s infinite alternate; }
-    @keyframes fadeText { from { opacity: 0.5; } to { opacity: 1; } }
-    #intro.fade-out { opacity: 0; pointer-events: none; }
-
     /* Section animation */
     section {
       min-height: 100vh; display: flex; flex-direction: column;
@@ -299,3 +289,4 @@
   </script>
 </body>
 </html>
+
